@@ -113,7 +113,6 @@ const capitalizeAllLetters = (array) => {
     
     capitalized = result.push(array[0].toUpperCase())
     result = result.concat(capitalizeAllLetters(array.slice(1)))
-    console.log(result)
 
     return result
     

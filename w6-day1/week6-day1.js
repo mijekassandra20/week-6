@@ -37,13 +37,14 @@ const palindrome = (str) => {
 
 }
 
-// console.log(palindrome('t')) // true
-// console.log(palindrome('yo')) // false
-// console.log(palindrome('yy')) // true
-// console.log(palindrome('tony')) // false
-// console.log(palindrome('monkey')) // false
-// console.log(palindrome('tacocat')) // true
-// console.log(palindrome('sos')) // true
+console.log(palindrome('t')) // true
+console.log(palindrome('yo')) // false
+console.log(palindrome('yy')) // true
+console.log(palindrome('race car')) // true
+console.log(palindrome('tony')) // false
+console.log(palindrome('monkey')) // false
+console.log(palindrome('tacocat')) // true
+console.log(palindrome('sos')) // true
 
 // ! ########################################################################################################
 

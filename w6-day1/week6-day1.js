@@ -3,19 +3,19 @@
 // reverseString('baker') // 'rekab'
 function reverseString(str){
 
-    if (!str) return undefined;
+    if (!str) return '';
     if (str.length === 1) return str;
 
-    let reverse = str[str.length - 1] + reverseString(str.slice(0, str.length - 1))
+    return reverseString(str.slice(1)) + str[0]
 
     return reverse;
 
 }
 
-// console.log(reverseString(''))
-// console.log(reverseString('k'))
-// console.log(reverseString('tony'))
-// console.log(reverseString('baker'))
+console.log(reverseString(''))
+console.log(reverseString('k'))
+console.log(reverseString('tony'))
+console.log(reverseString('baker'))
 
 // ! ########################################################################################################
 
@@ -37,14 +37,14 @@ const palindrome = (str) => {
 
 }
 
-console.log(palindrome('t')) // true
-console.log(palindrome('yo')) // false
-console.log(palindrome('yy')) // true
-console.log(palindrome('race car')) // true
-console.log(palindrome('tony')) // false
-console.log(palindrome('monkey')) // false
-console.log(palindrome('tacocat')) // true
-console.log(palindrome('sos')) // true
+// console.log(palindrome('t')) // true
+// console.log(palindrome('yo')) // false
+// console.log(palindrome('yy')) // true
+// console.log(palindrome('race car')) // true
+// console.log(palindrome('tony')) // false
+// console.log(palindrome('monkey')) // false
+// console.log(palindrome('tacocat')) // true
+// console.log(palindrome('sos')) // true
 
 // ! ########################################################################################################
 

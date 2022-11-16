@@ -12,11 +12,10 @@ function reverseString(str){
 
 }
 
-
-console.log(reverseString(''))
-console.log(reverseString('k'))
-console.log(reverseString('tony'))
-console.log(reverseString('baker'))
+// console.log(reverseString(''))
+// console.log(reverseString('k'))
+// console.log(reverseString('tony'))
+// console.log(reverseString('baker'))
 
 // ! ########################################################################################################
 
@@ -31,7 +30,7 @@ const palindrome = (str) => {
     if (str.length === 1) return true
 
     if (str[0] === str[str.length - 1]) {
-        return palindrome(str.slice(1,-1))
+        return palindrome(str.slice(1,-1).trim())
     } else {
         return false
     }
